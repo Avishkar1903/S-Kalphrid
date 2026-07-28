@@ -79,7 +79,7 @@ img {
 }
 
 .logo-img {
-  height: 100px;
+  height: 120px;
   width: auto;
   object-fit: contain;
 }
@@ -340,7 +340,7 @@ h3 {
 .journey-header{
     text-align:left;
     max-width:700px;
-    margin: 0 auto 60px;
+    margin: 7 auto 60px;
 }
 
 .journey-header h2{
