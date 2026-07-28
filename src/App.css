@@ -337,10 +337,11 @@ h3 {
     background:#f9f9f9;
 }
 
-.journey-header{
-    text-align:left;
-    max-width:700px;
-    margin: 7 auto 60px;
+.journey-header {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 60px 0;   /* Left aligned */
+    text-align: left;
 }
 
 .journey-header h2{
