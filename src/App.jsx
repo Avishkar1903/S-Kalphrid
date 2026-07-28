@@ -20,6 +20,7 @@ import {
   X,
 } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import logo from "./logo.png";
 
 const heroImage =
   'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2200&q=85';
@@ -141,7 +142,7 @@ function App() {
         <a className="brand" href="#home" onClick={closeMenu} aria-label="S Kalphrid Realty home">
           <div className="logo">
             <img
-            src="ChatGPT Image Jun 13, 2026, 09_50_43 PM.png"
+            src={logo}
             alt="S Kalphrid Realty Logo"
             className="logo-img"
             />
