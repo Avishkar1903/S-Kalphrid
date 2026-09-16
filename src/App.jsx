@@ -405,7 +405,7 @@ function App() {
             relevant options, and the next practical step.
           </p>
           <div className="contact-lines">
-            <a href="tel:+91992060727"><Phone size={18} /> +91 9920607271</a>
+            <a href="tel:+919820313104"><Phone size={18} /> +91 9820313104</a>
             <a href="mailto:hello@skalphrid.com"><Mail size={18} /> hello@skalphrid.com</a>
             <span><Landmark size={18} /> Mumbai | Navi Mumbai | Pune </span>
           </div>
@@ -526,7 +526,7 @@ function App() {
 
       <a
         className="whatsapp"
-        href="https://wa.me/919920607271?text=Hello%20S%20Kalphrid%20Realty%2C%20I%20would%20like%20to%20discuss%20a%20property%20requirement."
+        href="https://wa.me/919820313104?text=Hello%20S%20Kalphrid%20Realty%2C%20I%20would%20like%20to%20discuss%20a%20property%20requirement."
         target="_blank"
         rel="noreferrer"
         aria-label="Chat with S Kalphrid  on WhatsApp"
