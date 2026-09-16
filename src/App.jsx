@@ -176,12 +176,12 @@ function App() {
           {menuOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
       </header>
-
+      
+       <title>S Kalphrid  | We  Speak  Finance  Fluently</title>
       <section className="hero" id="home" style={{ backgroundImage: `url(${heroImage})` }}>
         <div className="hero-overlay" />
         <div className="hero-content reveal is-visible">
           {/* <span className="eyebrow"><Sparkles size={17} /> We  Speak  Finance  Fluently </span> */}
-      <title>S Kalphrid  | We  Speak  Finance  Fluently</title>
           <h1 className="hero-title">
             <span className="main-title">S KalPhrid</span>
             <span className="eyebrow"><Sparkles size={17} /> We Speak Finance Fluently </span>
