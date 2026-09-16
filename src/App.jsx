@@ -5,9 +5,11 @@ import {
   CheckCircle2,
   ChevronUp,
   Gem,
-  Handshake,
-  Home,
+  House,
+  Megaphone,
   Landmark,
+  BedDouble,
+  UsersRound,
   Mail,
   MapPin,
   Menu,
@@ -27,41 +29,47 @@ const heroImage =
 
 const services = [
   {
-    icon: Home,
-    title: 'Premier Presales',
-    text: 'Strategic planning and market insights to position your project for a successful launch. We help maximize market readiness and buyer interest from day one.',
-  },
-  {
-    icon: Building2,
-    title: 'Tailored Marketing Solutions',
-    text: 'Customized marketing campaigns designed to enhance brand visibility and generate quality leads. Our strategies drive engagement, conversions, and sales growth.',
-  },
-  {
     icon: TrendingUp,
-    title: 'Investment Advisory',
-    text: 'Data-led property recommendations for investors seeking reliable returns, growth corridors, and portfolio diversification.',
-  },
-  {
-    icon: Handshake,
-    title: 'Curated Property Sourcing',
-    text: 'Carefully selected property opportunities tailored to your investment goals and requirements. We help clients identify high-potential assets with lasting value.',
+    title: 'Investment',
+    text: 'Strategic investment opportunities backed by market insights and careful evaluation, helping clients identify potential avenues for long-term growth and value creation.',
   },
   {
     icon: Landmark,
-    title: 'Specialized Loan Services',
-    text: 'End-to-end assistance in securing home and commercial property loans with competitive rates, seamless documentation, and faster approvals.',
+    title: 'Loan Services',
+    text: 'End-to-end loan assistance for individuals and businesses, including suitable financing options, documentation support, and guidance through the approval process.',
   },
   {
-    icon: Award,
-    title: 'Comprehensive Sales Mandate',
-    text: 'Complete sales management solutions including CRM support, lead nurturing, sales execution, and client assistance until possession is achieved.',
+    icon: Megaphone,
+    title: 'Marketing Services',
+    text: 'Customized marketing solutions designed to strengthen brand visibility, generate quality leads, engage the right audience, and support sustainable business growth.',
+  },
+  {
+    icon: Building2,
+    title: 'Business Setup',
+    text: 'Start-to-end complete business setup services covering planning, registration, documentation, operations, and execution — everything you need to establish and launch your business.',
+  },
+  {
+    icon: BedDouble,
+    title: 'PG Services',
+    text: 'Comfortable and well-managed PG accommodation designed to provide a safe, convenient, and welcoming stay for students and working professionals.',
+  },
+  {
+    icon: UsersRound,
+    title: 'Manpower & Staffing Solutions',
+    text: 'Reliable manpower and staffing solutions tailored to business requirements, helping organizations build skilled, efficient, and dependable teams.',
+  },
+  {
+    icon: House,
+    title: 'Real Estate',
+    text: 'Residential, commercial, and investment property opportunities supported by market knowledge, careful selection, and a transparent approach to real-estate transactions.',
   },
 ];
+// why choose us - 4 points
 const reasons = [
-  'Verified projects and transparent developer relationships',
-  'Premium market knowledge with grounded local insight',
-  'Confidential, client-first advisory for every budget range',
-  'Smooth coordination from discovery to possession',
+  'Carefully selected opportunities focused on growth and long-term value.',
+  'Research-driven insights to help you make informed investment decisions.',
+  'Clear communication and a client-first philosophy at every step.',
+  'Dedicated assistance from opportunity evaluation through execution.',
 ];
 
 const projects = [
@@ -91,21 +99,21 @@ const projects = [
 const testimonials = [
   {
     name: 'Rohan Mehta',
-    role: 'Founder, Mehta Capital',
+    role: 'Individual Investor',
     quote:
-      'S Kalphrid Realty gave us rare clarity in a crowded market. Every option was relevant, well researched, and professionally handled.',
+      'S Kalphrid helped us look at investment opportunities with much greater clarity. Their approach was transparent, well-researched, and focused on finding opportunities that aligned with our financial goals.',
   },
   {
     name: 'Priya Shah',
-    role: 'Luxury Home Buyer',
+    role: 'Business Investor',
     quote:
-      'The experience felt discreet, premium, and very personal. They understood our family requirements and protected our time beautifully.',
+      'What stood out about S Kalphrid was their professional approach and understanding of the market. They presented opportunities clearly and helped us make decisions with confidence rather than pressure.',
   },
   {
     name: 'Amit Kulkarni',
-    role: 'Commercial Investor',
+    role: 'Private Investor',
     quote:
-      'Their commercial recommendations were practical and investment-focused. We appreciated the honest pricing view and smooth documentation.',
+      'S Kalphrid has given us a more strategic perspective on investing. From evaluating opportunities to understanding the potential and risks, their team provided consistent support throughout the process.',
   },
 ];
 
@@ -172,15 +180,15 @@ function App() {
       <section className="hero" id="home" style={{ backgroundImage: `url(${heroImage})` }}>
         <div className="hero-overlay" />
         <div className="hero-content reveal is-visible">
-          <span className="eyebrow"><Sparkles size={15} /> Premium Real Estate Advisory</span>
-      <title>S Kalphrid  | Premium Real Estate Advisory</title>
-          <h1 class="hero-title">
-            <span class="main-title">S KalPhrid</span>
-            {/* <span class="sub-title">MultiVentures Pvt. Ltd.</span> */}
+          {/* <span className="eyebrow"><Sparkles size={17} /> We  Speak  Finance  Fluently </span> */}
+      <title>S Kalphrid  | We  Speak  Finance  Fluently</title>
+          <h1 className="hero-title">
+            <span className="main-title">S KalPhrid</span>
+            <span className="eyebrow"><Sparkles size={17} /> We Speak Finance Fluently </span>
+            {/* <span className="sub-title">MultiVentures Pvt. Ltd.</span> */}
           </h1> 
           <p>
-            Curating landmark homes, commercial spaces, and investment opportunities with
-            discretion, market intelligence, and a refined client experience.
+            Creating value through strategic investments, diverse ventures, and opportunities built for long-term growth.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary" href="#projects">
@@ -195,8 +203,8 @@ function App() {
             <span>Years advisory</span>
           </div>
           <div>
-            <strong>450+</strong>
-            <span>Clients served</span>
+            <strong>20000+</strong>
+            <span> Individual Clients served</span>
           </div>
           <div>
             <strong>95%</strong>
@@ -213,7 +221,7 @@ function App() {
           </div>
           <div className="story-copy reveal">
             <p>
-              Born into a humble farming family in a small village of Maharashtra, Mr. D. B. Sahebrao believed that education and determination could transform lives. Through years of dedication and perseverance, he earned the honor of serving the nation as a Class One Officer in the Central Government for over 35 years. Beyond his professional achievements, he became widely respected for his integrity, commitment to social service, and passion for inspiring others. On 31st May 2019, during his retirement ceremony, he shared a heartfelt vision—to begin a new journey as an entrepreneur dedicated to creating opportunities, empowering people, and contributing meaningfully to society.
+              Born into a humble farming family in a small village of Maharashtra, <strong>Mr. D. B. Sahebrao</strong> believed that education and determination could transform lives. Through years of dedication and perseverance, he earned the honor of serving the nation as a Class One Officer in the Central Government for over 35 years. Beyond his professional achievements, he became widely respected for his integrity, commitment to social service, and passion for inspiring others. On 31st May 2019, during his retirement ceremony, he shared a heartfelt vision—to begin a new journey as an entrepreneur dedicated to creating opportunities, empowering people, and contributing meaningfully to society.
             </p>
             <p>
               True to that promise, on 10th October 2020, he established The SAVI Group, laying the foundation for what would become S Kalphrid Multi Ventures Pvt. Ltd. Built on the principles of trust, transparency, innovation, and excellence, the company continues to grow across multiple industries while remaining committed to delivering value and building lasting relationships. Guided by a dedicated leadership team, S Kalphrid Multi Ventures Pvt. Ltd. stands as a reflection of one man's dream—proving that with vision, integrity, and purpose, a humble beginning can grow into a legacy that inspires generations.
@@ -247,7 +255,7 @@ function App() {
           <h3>KALPHRID INVESTMENT</h3>
           <p>
             Our first venture, Kalphrid Investment, laid the foundation for our growth. 
-            With the confidence of<strong> 8,800+ investors</strong>, it continues to inspire our vision for excellence.
+            With the confidence of<strong> 8,800+ individual investors</strong>, it continues to inspire our vision for excellence.
           </p>
         </div>
         <div className="journey-card reveal">
@@ -255,7 +263,7 @@ function App() {
           <h3>MURLIDHAR INVESTMENT</h3>
           <p>
             Our second venture, MURLIDHAR INVESTMENT, expanded our journey with confidence and reliability.
-             We are proud to have earned the trust of <strong>5,400+ investors</strong>.
+             We are proud to have earned the trust of <strong>5,400+  individual investors</strong>.
           </p>
         </div>
         <div className="journey-card reveal">
@@ -263,7 +271,7 @@ function App() {
           <h3>SAVI FINANCIAL SERVICES</h3>
           <p>
             Our third venture, SAVI FINANCIAL SERVICES, was established to simplify loan solutions for individuals and businesses. 
-            With the trust of <strong>6,000+ clients</strong>, we continue to deliver reliable financial support.
+            With the trust of <strong>6,000+ individual clients</strong>, we continue to deliver reliable financial support.
           </p>
         </div>
         <div className="journey-card reveal">
@@ -291,7 +299,7 @@ function App() {
       <section className="section services" id="services">
         <div className="section-heading reveal">
           <span className="section-kicker">Services</span>
-          <h2>Property expertise, delivered with precision.</h2>
+          {/* <h2>Property expertise, delivered with precision.</h2> */}
         </div>
         <div className="card-grid">
           {services.map((service) => {
@@ -311,7 +319,7 @@ function App() {
         <div className="why-panel reveal">
           <div>
             <span className="section-kicker">Why Choose Us</span>
-            <h2>A more intelligent way to buy, lease, and invest.</h2>
+            <h2>A smarter way to grow, expand, and invest.</h2>
             <p>
               We respect the scale of every decision. That means disciplined due diligence,
               polished communication, and recommendations that are practical, premium, and
@@ -369,7 +377,7 @@ function App() {
       <section className="section testimonials" id="testimonials">
         <div className="section-heading reveal">
           <span className="section-kicker">Testimonials</span>
-          <h2>Trusted by home buyers, owners, and investors.</h2>
+          <h2>Trusted by Investors. Built on Relationships.</h2>
         </div>
         <div className="testimonial-grid">
           {testimonials.map((item) => (
@@ -388,15 +396,18 @@ function App() {
       <section className="section contact" id="contact">
         <div className="contact-copy reveal">
           <span className="section-kicker">Contact</span>
-          <h2>Begin your property journey with a private consultation.</h2>
+          <h2>
+            Start Your <br />
+           <span className="highlight">Investment Journey</span> With a Private Consultation.
+          </h2>
           <p>
-            Share your requirement and our advisory team will respond with a focused plan,
+            Share your requirement and our team will respond with a focused plan,
             relevant options, and the next practical step.
           </p>
           <div className="contact-lines">
             <a href="tel:+91992060727"><Phone size={18} /> +91 9920607271</a>
             <a href="mailto:hello@skalphrid.com"><Mail size={18} /> hello@skalphrid.com</a>
-            <span><Landmark size={18} /> Mumbai | Pune | Navi Mumbai</span>
+            <span><Landmark size={18} /> Mumbai | Navi Mumbai | Pune </span>
           </div>
         </div>
 
@@ -498,7 +509,7 @@ function App() {
               {/* <small>Realty</small> */}
             </span>
           </a>
-          <p>Premium real estate advisory for residences, commercial spaces, and investment assets.</p>
+          <p>Strategic investments, diverse ventures, and opportunities <br /> built to create lasting value.</p>
         </div>
         <div className="footer-links">
           <a href="#story">Our Story</a>
@@ -508,7 +519,7 @@ function App() {
           <a href="#contact">Contact</a>
         </div>
         <div className="footer-meta">
-          <span>RERA advisory support available on request.</span>
+          <span>Investments | Multi-Ventures | Financial Solutions | Real Estate.</span>
           <span>© 2026 S Kalphrid. All rights reserved.</span>
         </div>
       </footer>
