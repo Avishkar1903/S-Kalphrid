@@ -200,7 +200,7 @@ function App() {
         <div className="hero-stats" aria-label="Company highlights">
           <div>
             <strong>12+</strong>
-            <span>Years advisory</span>
+            <span>Years of legacy</span>
           </div>
           <div>
             <strong>20000+</strong>
