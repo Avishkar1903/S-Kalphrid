@@ -204,7 +204,7 @@ function App() {
           </div>
           <div>
             <strong>20000+</strong>
-            <span> Individual Clients served</span>
+            <span> Individual Clients Served</span>
           </div>
           <div>
             <strong>95%</strong>
