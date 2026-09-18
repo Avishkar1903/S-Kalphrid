@@ -581,7 +581,7 @@ function App() {
 
       <a
         className="whatsapp"
-        href="https://wa.me/919920607272?text=Hello%20S%20Kalphrid%20Realty%2C%20I%20would%20like%20to%20discuss%20a%20property%20requirement."
+        href="https://wa.me/919920607272?text=Hello%20S%20Kalphrid%2C%20I%20would%20like%20to%20discuss%20my%20investment%20requirements%20and%20explore%20suitable%20opportunities."
         target="_blank"
         rel="noreferrer"
         aria-label="Chat with S Kalphrid  on WhatsApp"
