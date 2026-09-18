@@ -476,15 +476,18 @@ function App() {
             Requirement
             <select name="requirement" defaultValue="">
               <option value="" disabled>Select service</option>
-              <option>Luxury Residential</option>
-              <option>Commercial Leasing</option>
-              <option>Investment Advisory</option>
-              <option>Property Consultation</option>
+              <option>Investment</option>
+              <option>Loan Services</option>
+              <option>Marketing Services</option>
+              <option>Business Setup</option>
+              <option>PG Services</option>
+              <option>Manpower & Staffing Solutions</option>
+              <option>Real Estate</option>
             </select>
           </label>
           <label>
             Message
-            <textarea name="message" rows="4" placeholder="Tell us about your preferred location, budget, and timeline" />
+            <textarea name="message" rows="4" placeholder="Tell us about your investment goals, business interests, budget, and timeline." />
           </label>
           <button className="btn btn-primary" type="submit">
             Request Consultation <ArrowRight size={18} />
