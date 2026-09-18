@@ -213,22 +213,74 @@ function App() {
         </div>
       </section>
 
-      <section className="section story" id="story">
-        <div className="section-grid">
-          <div className="reveal">
-            <span className="section-kicker">Our Story</span>
-            <h2>Every Legacy Begins with a Dream.</h2>
-          </div>
-          <div className="story-copy reveal">
-            <p>
-              Born into a humble farming family in a small village of Maharashtra, <strong>Mr. D. B. Sahebrao</strong> believed that education and determination could transform lives. Through years of dedication and perseverance, he earned the honor of serving the nation as a Class One Officer in the Central Government for over 35 years. Beyond his professional achievements, he became widely respected for his integrity, commitment to social service, and passion for inspiring others. On 31st May 2019, during his retirement ceremony, he shared a heartfelt vision—to begin a new journey as an entrepreneur dedicated to creating opportunities, empowering people, and contributing meaningfully to society.
-            </p>
-            <p>
-              True to that promise, on 10th October 2020, he established The SAVI Group, laying the foundation for what would become S Kalphrid Multi Ventures Pvt. Ltd. Built on the principles of trust, transparency, innovation, and excellence, the company continues to grow across multiple industries while remaining committed to delivering value and building lasting relationships. Guided by a dedicated leadership team, S Kalphrid Multi Ventures Pvt. Ltd. stands as a reflection of one man's dream—proving that with vision, integrity, and purpose, a humble beginning can grow into a legacy that inspires generations.
-            </p>
-          </div>
+    <section className="section story" id="story">
+  <div className="story-layout">
+
+    {/* LEFT */}
+    <div className="story-left">
+
+      <span className="section-kicker">OUR STORY</span>
+
+      <h2>
+        Every Legacy
+        <br />
+        Begins with a
+        <br />
+        Dream.
+      </h2>
+
+      <div className="story-founder">
+
+        <div className="story-image">
+          <img
+            src="/sahebrao.jpeg"
+            alt="Mr. D. B. Sahebrao"
+          />
         </div>
-      </section>
+
+        <div className="founder-details">
+          <h3>Mr. D. B. Sahebrao</h3>
+          <span>Founder &amp; Managing Director</span>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    {/* RIGHT */}
+    <div className="story-copy">
+
+      <p>
+        Born into a humble farming family in a small village of Maharashtra,
+        <strong> Mr. D. B. Sahebrao</strong> believed that education and
+        determination could transform lives. Through years of dedication and
+        perseverance, he earned the honor of serving the nation as a Class One
+        Officer in the Central Government for over 35 years. Beyond his
+        professional achievements, he became widely respected for his integrity,
+        commitment to social service, and passion for inspiring others. On 31st
+        May 2019, during his retirement ceremony, he shared a heartfelt
+        vision—to begin a new journey as an entrepreneur dedicated to creating
+        opportunities, empowering people, and contributing meaningfully to
+        society.
+      </p>
+
+      <p>
+        True to that promise, on 10th October 2020, he established The SAVI
+        Group, laying the foundation for what would become S Kalphrid Multi
+        Ventures Pvt. Ltd. Built on the principles of trust, transparency,
+        innovation, and excellence, the company continues to grow across
+        multiple industries while remaining committed to delivering value and
+        building lasting relationships. Guided by a dedicated leadership team,
+        S Kalphrid Multi Ventures Pvt. Ltd. stands as a reflection of one man's
+        dream—proving that with vision, integrity, and purpose, a humble
+        beginning can grow into a legacy that inspires generations.
+      </p>
+
+    </div>
+
+  </div>
+</section>
 
       <section className="journey section" id="journey">
        <div className="journey-header reveal">
