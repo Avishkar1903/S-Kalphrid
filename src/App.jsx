@@ -239,7 +239,7 @@ function App() {
         </div>
 
         <div className="founder-details">
-          <h3>Mr. D. B. Sahebrao</h3>
+          <h3>Mr. DB Sahebrao</h3>
           <span>Founder &amp; Managing Director</span>
         </div>
 
@@ -252,8 +252,8 @@ function App() {
     <div className="story-copy">
 
       <p>
-        Born into a humble farming family in a small village of Maharashtra,
-        <strong> Mr. D. B. Sahebrao</strong> believed that education and
+        Born into a humble farming family in a small village of Maharashtra, India <br />
+        <strong> Mr. DB Sahebrao</strong> believed that education and
         determination could transform lives. Through years of dedication and
         perseverance, he earned the honor of serving the nation as a Class One
         Officer in the Central Government for over 35 years. Beyond his
